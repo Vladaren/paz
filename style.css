@@ -78,9 +78,7 @@ aside{
   height: 210px;
   border:1px solid black;
 }
-#bot1{
-  clear:both;
-}
+
 footer{
   width:100%;
   position:fixed;
