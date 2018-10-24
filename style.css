@@ -1,0 +1,90 @@
+/* Styles go here */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  direction:rtl;
+  border:0px solid black;
+  text-align:center;  
+}
+
+header{
+  width:100%;
+  height:106px;
+  background-image:url('images/header_bg.png');
+}
+
+main{
+  display:inline-block;
+  margin:auto;
+  background-color:goldenrod;
+}
+
+section{
+  width:900px;
+  border:0px solid red;
+  margin:auto;
+  margin: 0px auto;
+}
+
+#topLine .text, aside{
+    border-bottom-right-radius:20px; 
+}
+
+#topLine>aside{
+ margin-top:30px; 
+ height: 355px;
+ border-bottom-right-radius:20px; 
+}
+
+aside{
+  margin:  6px;
+  float:left;
+  width:288px;
+  background-color:white;  
+}
+
+#top1{
+  background-image: url('images/354410564000.jpg');
+}
+#top2{
+  background-image: url('images/Picture-046410251500.jpg');
+}
+
+#top3{
+  background-image: url('images/1908364606615453350.jpg');
+}
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:6px;
+  padding-left:20px;
+  padding-right:10px;
+  font-size:12px;
+  color:white;
+  width: 245px;
+  height:95px;
+  text-align:right;
+  margin-top:253px;
+  margin-right:5px;
+  background-color: grey;
+}
+
+#botLine>aside{
+  margin-top:20px;
+  height: 210px;
+  border:1px solid black;
+}
+#bot1{
+  clear:both;
+}
+footer{
+  width:100%;
+  position:fixed;
+  bottom:0;
+  height:50px;
+  background-color:gray;
+}
