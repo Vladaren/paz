@@ -7,40 +7,28 @@
   color:white;
   font-size:12px; 
 }
-
 body{
   direction:rtl;
   text-align:center;
 }
 
 header>section{
-  font-weight: bold;
   position:relative;
-  height:24px;
-  text-align: right;
-  /* border:1px solid black; */
-}
-#head1{
+  height:25px;
   margin-top:20px;
 }
 #pictsrch{
-  margin-right:2px;
   float:left;
 }
-
 input{
-  height:19px;
   float:left;
-  border-top-right-radius:8px; 
+  border-top-right-radius:5px; 
   border:0;
 }
-
 #lang{
   float:left;
-  padding-top:2px;
+  font-size:15px;
   margin-left:20px;
-/*   border:1px solid black; 
- */  height:20px;
 }
 
 ul{
@@ -48,48 +36,19 @@ ul{
   list-style-type: none;
 }
 
-#head2>ul>li{
-  /* border:1px solid black; */
-  padding:0 10px;
-  float:left;  
-}
-
-li:hover>sup{
-  color:blue;
-}
-
-li:hover>a>p{
-  color:blue;
-}
-
-li:hover .dropdown {
-  display: block;
-}
-
-.dropdown{
-  width:fit-content;
-  display:none;
-  position:absolute;
-  margin-right: 10px;
-  padding: 5px;
-  background-color: gray;
-}
-
-#paz{
-  position:absolute;
-  top:-12px;
-  right:-10px;
-}
-#home{
-  margin-top:3px;
-  background-position:right; 
-  height:15px;
-  width:17px;
-  background-image: url("images/menu_home.png");       
+li{
+  margin:0px 0 0 15px;
+  float:left;
+  border:0px solid black;
 }
 
 ul img{
   margin: 0 0 0 15px;
+}
+#head2 div{
+  display:inline-block;
+  margin-bottom:5px;
+  border:1px solid black;
 }
 
 header{
@@ -113,13 +72,14 @@ section{
   margin: 0px auto;
 }
 
-#topLine * {
+#topLine .text, aside{
     border-bottom-right-radius:20px; 
 }
 
 #topLine>aside{
  margin-top:136px; 
  height: 355px;
+ border-bottom-right-radius:20px; 
 }
 
 aside{
@@ -137,7 +97,7 @@ aside{
 }
 
 #top3{
-  background-image: url('images/350.JPG');
+  background-image: url('images/1908364606615453350.jpg');
 }
 
 .text{
@@ -156,8 +116,7 @@ aside{
 
 #botLine>aside{
   margin-top:20px;
-  height: 210px; 
-  border-top-right-radius:20px; 
+  height: 210px;
   border:1px solid black;
 }
 
