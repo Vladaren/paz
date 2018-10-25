@@ -15,7 +15,6 @@ body{
 
 header>section{
   position:relative;
-  border:1px solid red;
   height:25px;
   margin-top:20px;
 }
@@ -24,7 +23,6 @@ header>section{
 }
 input{
   float:left;
-  border:0px solid red;
   border-top-right-radius:5px; 
 }
 #lang{
