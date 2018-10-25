@@ -7,29 +7,40 @@
   color:white;
   font-size:12px; 
 }
+
 body{
   direction:rtl;
   text-align:center;
-
 }
 
 header>section{
+  font-weight: bold;
   position:relative;
-  height:25px;
+  height:24px;
+  text-align: right;
+  /* border:1px solid black; */
+}
+#head1{
   margin-top:20px;
 }
 #pictsrch{
+  margin-right:2px;
   float:left;
 }
+
 input{
+  height:19px;
   float:left;
-  border-top-right-radius:5px; 
+  border-top-right-radius:8px; 
+  border:0;
 }
+
 #lang{
-  margin-top:0px;
   float:left;
-  font-size:15px;
+  padding-top:2px;
   margin-left:20px;
+/*   border:1px solid black; 
+ */  height:20px;
 }
 
 ul{
@@ -37,18 +48,48 @@ ul{
   list-style-type: none;
 }
 
-li{
-  margin:0px 0 0 15px;
-  float:left;
-  
+#head2>ul>li{
+  /* border:1px solid black; */
+  padding:0 10px;
+  float:left;  
+}
+
+li:hover>sup{
+  color:blue;
+}
+
+li:hover>a>p{
+  color:blue;
+}
+
+li:hover .dropdown {
+  display: block;
+}
+
+.dropdown{
+  width:fit-content;
+  display:none;
+  position:absolute;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: gray;
+}
+
+#paz{
+  position:absolute;
+  top:-12px;
+  right:-10px;
+}
+#home{
+  margin-top:3px;
+  background-position:right; 
+  height:15px;
+  width:17px;
+  background-image: url("images/menu_home.png");       
 }
 
 ul img{
   margin: 0 0 0 15px;
-}
-#head2 div{
-  display:inline-block;
-  margin-bottom:5px;
 }
 
 header{
@@ -67,6 +108,7 @@ main{
 
 section{
   width:900px;
+  border:0px solid red;
   margin:auto;
   margin: 0px auto;
 }
