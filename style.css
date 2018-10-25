@@ -42,7 +42,7 @@ ul{
 li{
   margin:0px 0 0 15px;
   float:left;
-  border:0px solid black;
+  
 }
 
 ul img{
@@ -51,7 +51,6 @@ ul img{
 #head2 div{
   display:inline-block;
   margin-bottom:5px;
-  border:1px solid black;
 }
 
 header{
@@ -70,7 +69,6 @@ main{
 
 section{
   width:900px;
-  border:0px solid red;
   margin:auto;
   margin: 0px auto;
 }
