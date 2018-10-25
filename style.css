@@ -128,6 +128,7 @@ aside{
   float:left;
   width:288px;
   background-color:white;  
+  border:1px solid black;
 }
 
 #top1{
@@ -138,7 +139,7 @@ aside{
 }
 
 #top3{
-  background-image: url('images/1908364606615453350.jpg');
+  background-image: url('images/Picture-046410251500.jpg');
 }
 
 .text{
