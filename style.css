@@ -113,14 +113,13 @@ section{
   margin: 0px auto;
 }
 
-#topLine .text, aside{
+#topLine * {
     border-bottom-right-radius:20px; 
 }
 
 #topLine>aside{
  margin-top:136px; 
  height: 355px;
- border-bottom-right-radius:20px; 
 }
 
 aside{
@@ -128,7 +127,6 @@ aside{
   float:left;
   width:288px;
   background-color:white;  
-  border:1px solid black;
 }
 
 #top1{
@@ -158,7 +156,8 @@ aside{
 
 #botLine>aside{
   margin-top:20px;
-  height: 210px;
+  height: 210px; 
+  border-top-right-radius:20px; 
   border:1px solid black;
 }
 
