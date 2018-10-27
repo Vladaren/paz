@@ -1,36 +1,51 @@
 /* Styles go here */
 *{
+  text-decoration: none;
   box-sizing:border-box;
   margin:0;
   padding:0;
-  font-family: Arial, Helvetica, sans-serif;
-  color:white;
-  font-size:12px; 
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
 body{
   direction:rtl;
   text-align:center;
+  
+}
+
+header, #topLine, .dropdown, footer *{
+  color:white;
+}
+
+.main{
+  width:900px;
+  margin:0 auto;
 }
 
 header>section{
+  color:white;
   font-weight: bold;
   position:relative;
   height:24px;
   text-align: right;
   /* border:1px solid black; */
 }
+
 #head1{
   margin-top:20px;
 }
+
 #pictsrch{
   margin-right:2px;
   float:left;
+  padding-left: 10px;
 }
 
 input{
+  color:gray;
   height:19px;
   float:left;
+  width: 150px;
   border-top-right-radius:8px; 
   border:0;
 }
@@ -39,16 +54,19 @@ input{
   float:left;
   padding-top:2px;
   margin-left:20px;
+  font-size:13px; 
+
 /*   border:1px solid black; 
  */  height:20px;
 }
 
 ul{
-  clear:both;
   list-style-type: none;
+  margin-left:10px;
 }
 
-SECTION>ul>li{
+header>section>ul>li{
+  font-size: 16px;
   /* border:1px solid black; */
   padding:0 10px;
   float:left;  
@@ -73,6 +91,7 @@ li:hover .dropdown {
   margin-right: 10px;
   padding: 5px;
   background-color: gray;
+  font-size: 14px;
 }
 
 #paz{
@@ -80,6 +99,7 @@ li:hover .dropdown {
   top:-12px;
   right:-10px;
 }
+
 #home{
   margin-top:3px;
   background-position:right; 
@@ -99,33 +119,35 @@ header{
   background-image:url('images/header_bg.png');
   background-color:grey;
 }
-
+/*//main/////////////////////////////////////////////*/
 main{
   display:inline-block;
   margin:auto;
   background-color:goldenrod;
 }
 
-section{
-  width:900px;
-  margin:auto;
-  margin: 0px auto;
-}
-
-#topLine * {
-    border-bottom-right-radius:20px; 
-}
-
 #topLine>aside{
+ border-bottom-right-radius: 20px;
  margin-top:136px; 
  height: 355px;
+}
+
+.kraod {
+  color:white;
+  line-height:0.8; 
+  padding-left: 3px;
+  float:left;
+  text-decoration: underline;
+}
+
+.kraodpict{
+  float:left;
 }
 
 aside{
   margin:6px;
   float:left;
   width:288px;
-  background-color:white;  
 }
 
 #top1{
@@ -140,6 +162,7 @@ aside{
 }
 
 .text{
+  border-bottom-right-radius: 20px;
   padding-top:6px;
   padding-left:20px;
   padding-right:10px;
@@ -153,23 +176,113 @@ aside{
   opacity: .9;
 }
 
+.text>p{
+  height:55px;
+  line-height: 1;
+}
+/*//bottline/////////////////////////////////////////////*/
 #botLine>aside{
-  margin-top:20px;
+  text-align:right;
+  font-weight:bold;
+  font-size: 15px;
+  color:black;
+  margin-top:10px;
+  padding-top:5px;
+  padding-right:20px;
   height: 210px; 
   border-top-right-radius:20px; 
-  border:1px solid black;
+  border:1px solid rgb(204, 199, 199);
+  background-image: url("images/small_cube_bg.png");
 }
 
+#botLine>aside>img {
+  padding-top:25px;
+  padding-bottom:20px;
+}
+
+#botLine>aside>a{
+  /* border:1px solid black;  */
+}
+
+.prNosafim {
+  font-weight: normal;
+  font-size: 12px;
+  color:gray;
+  line-height:0.8; 
+  padding-left: 3px;
+  float:left;
+  text-decoration: underline;
+}
+
+.imgPNosafim{
+ margin-left:20px;
+ float:left;
+}
+
+#bot1>div:first-child{
+  height:30px;
+}
+
+#bot1Div{
+  /* border:1px solid black;  */
+}
+
+#bot1Div>img{
+  /*   */
+  float:left;
+}
+
+/*///////////////*/
+#bot1Div>ul {
+  margin-top: 20px;
+  float: right;
+}
+
+#bot1Div>ul>li{
+}
+
+#bot1Div>ul>li>div{
+}
+
+#bot1Div>ul>li>div>a>p{
+  color: gray;
+  font-weight: normal;
+  text-decoration-line: underline;
+  float: right;;
+  width:35px;
+
+}
+
+#bot1Div>ul>li>div>a>img{
+  /* display:inline; */
+  /* float: right; */
+  }
+
+/*/footer//////////////////////////////////////////////*/
 footer{
+  text-align: right;
+  height:40px ;
+  padding-top: 10px;
   width:100%;
   position:fixed;
   bottom:0;
-  height:50px;
   background-color:gray;
 }
 
-footer>section>ul>li:first-child {
- color:red;
- background-color:green;
+footer>ul>li {
+  font-size: 15px;
+  margin-top:3px;
+  float: right;
+  padding-left: 5px;
+}
 
+footer>ul>li:last-child>a {
+ color:red;
+}
+
+#fb{
+  margin-top:0px;
+  height: 35px;
+  margin-bottom: 5px;
+  width: 25px;
 }
