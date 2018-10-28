@@ -184,7 +184,7 @@ aside{
 #botLine>aside{
   text-align:right;
   font-weight:bold;
-  font-size: 15px;
+  font-size: 14px;
   color:black;
   margin-top:10px;
   padding-top:5px;
@@ -223,15 +223,6 @@ aside{
   height:30px;
 }
 
-#bot1Div{
-  /* border:1px solid black;  */
-}
-
-#bot1Div>img{
-  /*   */
-  float:left;
-}
-
 /*///////////////*/
 #bot1Div>ul {
   margin-top: 20px;
@@ -246,11 +237,6 @@ aside{
   width:35px;
 
 }
-
-#bot1Div>ul>li>div>a>img{
-  /* display:inline; */
-  /* float: right; */
-  }
 
 /*/footer//////////////////////////////////////////////*/
 footer{
