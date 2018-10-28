@@ -219,11 +219,17 @@ aside{
  float:left;
 }
 
+
+/*///////////////*/
 #bot1>div:first-child{
   height:30px;
 }
 
-/*///////////////*/
+#bot1Div>img{
+  /*   */
+  float:left;
+}
+
 #bot1Div>ul {
   margin-top: 20px;
   float: right;
